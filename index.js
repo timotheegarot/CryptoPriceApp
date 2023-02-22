@@ -12,7 +12,7 @@ fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Ccardano%2Cdog
         <div class="coin-logo">
           <img src="images/${coin}.png">
         </div>
-        <div class "coin-name">
+        <div class="coin-name">
           <h3>${coin}</h3>
           <span>/USD</span>
         </div>
