@@ -75,3 +75,7 @@ body {
   font-weight: 600;
   margin-top: -30px;
 }
+
+.coin.rising {
+  background: linear-gradient(90deg, #202022, #4eb64510);
+}
