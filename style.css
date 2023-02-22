@@ -29,3 +29,8 @@ body {
   display: grid;
   place-items: center;
 }
+
+.coin .coin-logo img {
+  width: 70%;
+  height: 70%;
+}
