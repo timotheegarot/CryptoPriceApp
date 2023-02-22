@@ -1,0 +1,22 @@
+fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Ccardano%2Cdogecoin%2Cethereum%2Clitecoin%2Ctether&vs_currencies=usd&include_24hr_change=true').then(res => res.json()).then(json => {
+  const conatiner = document.querySelector(".container");
+  const coins = Object.getOwnPropertyNames(json);
+
+  for(let coin of coins) {
+    const coinInfo = json[`${coin}`];
+    const price = coinInfo.usd;
+    const change = coinInfo.usd_24_change.toFixed(5);
+
+    conatiner.innerHTML += `
+      <div class="coin ${change < 0 ? 'falling' : 'rising'}">
+        <div class "coin-logo">
+          <img src="images/${coin}.png>
+        </div>
+        <div class "coin-name">
+          <h3>${coin}</h3>
+          <span>/USD</span>
+        </div>
+      </div>
+    `
+  }
+});
