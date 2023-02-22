@@ -16,7 +16,7 @@ fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Ccardano%2Cdog
           <h3>${coin}</h3>
           <span>/USD</span>
         </div>
-        <div class "coin-price">
+        <div class="coin-price">
           <span class="price">$${price}</span>
           <span class="change">$${change}</span>
         </div>
