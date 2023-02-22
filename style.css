@@ -11,4 +11,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #161616;
+}
+
+.coin {
+  display: flex;
+  width: 460px;
+  height: 80px;
+  border-radius: 8px;
+  margin: 38px 0;
+  font-family: 'Mukta', sans-serif;
 }
