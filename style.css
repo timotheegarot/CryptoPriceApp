@@ -54,3 +54,11 @@ body {
   font-weight: 500;
   margin: 6px 0 0 2px;
 }
+
+.coin .coin-price {
+  display: grid;
+  align-items: center;
+  margin-left: auto;
+  padding: 8px 22px 0 0;
+  text-align: right;
+}
