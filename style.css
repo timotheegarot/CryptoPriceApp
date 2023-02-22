@@ -68,3 +68,10 @@ body {
   font-weight: 700;
   margin-top: -6px;
 }
+
+.coin .coin-price .change {
+  color: #aaa;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -30px;
+}
