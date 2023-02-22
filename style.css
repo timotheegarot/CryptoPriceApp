@@ -22,3 +22,10 @@ body {
   margin: 38px 0;
   font-family: 'Mukta', sans-serif;
 }
+
+.coin .coin-logo {
+  width: 88px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
